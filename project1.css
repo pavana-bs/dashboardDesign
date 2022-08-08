@@ -1,0 +1,184 @@
+/* html, body, div {
+	margin-top: 40px;
+	padding: 20px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: whitesmoke;
+} */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.topNav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+}
+.budget {
+  margin: unset;
+}
+
+.year {
+  display: flex;
+}
+.fy {
+  margin: 0px 10px;
+}
+.year .fa {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 0% 5px;
+}
+.quarter {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #ccc;
+}
+.btn {
+  display: flex;
+}
+.quarter div {
+  padding: 8px 20px;
+}
+.quarter div:nth-child(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.quarter div:nth-child(3) {
+  background-color: #a2b4e9;
+  color: #5367a2;
+}
+.add {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #443fd0d4;
+
+}
+
+.add .plus {
+  margin-right: 13px;
+  color: aliceblue;
+  border: unset;
+  border: 1px solid #7b98ec99;
+   border-radius: 5px;
+   padding: 5% 8px;
+   background-color: #7b98ec99;
+}
+
+.search {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  /* margin: 0px -40px; */
+}
+.search i {
+  color: #ccc;
+  font-size: 14px;
+}
+.search input {
+  border: unset;
+  width: 350px;
+}
+.search input::placeholder {
+  color: #ccc;
+}
+
+.btn {
+  width: 16%;
+  justify-content: space-between;
+}
+
+.down {
+  border: unset;
+  border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px 10px;
+   /* margin: 0px 10px; */
+}
+
+.set {
+  border: unset;
+  border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px 10px;
+}
+
+.download i {
+  color: #ccc;
+  
+}
+.logo  {
+  margin-top: 10px;
+}
+
+.eight {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.eight a {
+  margin: 20px 0px;
+}
+
+.two-icons a {
+  margin-top: 90px;
+  margin: 20px 0px;
+}
+
+  /* Style the sidebar - fixed full height */
+.leftNav {
+    overflow: scroll;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #251640;
+   
+
+  }
+  /* Style sidebar links */
+  .leftNav a {
+    border: 1px solid #6c66a97c;
+    background:  #6c66a97c;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 10px 6px;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  }
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.container > div {
+    text-align: center;
+    margin-right: 40px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+
