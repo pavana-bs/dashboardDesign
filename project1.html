@@ -6,32 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project 1</title>
     <link rel="stylesheet" href="project1.css">
-    <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- <div style="display: flex;"> -->
-        <div class="leftNav">
-            <div class="logo">
-                <a href="#home"><i class="fa fa-tag"></i></i> </a>
-            </div>    
-            <div class="eight">
-                <a href="#home"><i class="fa fa-tag"></i></i> </a>
-                <a href="#services"><i class="fa fa-fw fa-wrench"></i> </a>
-                <a href="#clients"><i class="fa fa-fw fa-user"></i> </a>
-                <a href="#contact"><i class="fa fa-fw fa-envelope"></i> </a>
-                <a href="#home"><i class="fa fa-tag"></i></i> </a>
-                <a href="#services"><i class="fa fa-fw fa-wrench"></i> </a>
-                <a href="#clients"><i class="fa fa-fw fa-user"></i> </a>
-                <a href="#contact"><i class="fa fa-fw fa-envelope"></i> </a>
-                </div>
-            <div class="two-icons">
-                <a href="#clients"><i class="fa fa-fw fa-user"></i> </a>
-                <a href="#contact"><i class="fa fa-fw fa-envelope"></i> </a>
-            </div>    
+    <div class="parent">
+        <div class="parentLeft">
+            <!-- leftnav -->
+            <div class="leftNav">
+                <div class="logo">
+                    <a href="#home"><div class="square"></div>
+                        <div class="dot"></div>
+                        <div class="dot1"></div></a>
+                </div>    
+                <div class="eight">
+                    <a href="#home"><i class="fa fa-th-large tag" aria-hidden="true"></i></i></i> </a>
+                    <a href="#services"><i class="fa fa-fw fa-wrench tag"></i> </a>
+                    <a href="#clients"><i class="fa fa-fw fa-user tag"></i> </a>
+                    <a href="#contact"><i class="fa fa-fw fa-envelope tag"></i> </a>
+                    <a href="#home"><i class="fa fa-tag tag"></i></i> </a>
+                    <a href="#services"><i class="fa fa-fw fa-user tag"></i></i> </a>
+                    <a href="#clients"><i class="fa fa-fw fa-user tag"></i> </a>
+                    <a href="#contact"><i class="fa fa-file tag" aria-hidden="true"></i> </a>
+                    </div>
+                <div class="two-icons">
+                    <a href="#clients"><i class="fa fa-bell tag" aria-hidden="true"></i> </a>
+                    <a href="#contact"><i class="fa fa-fw fa-user tag"></i> </a>
+                </div>  
+                
+                <div class="avatar">
+                    <img src="./pic.jpeg"  class="user1">
+                </div>  
+            </div>
         </div>
+        <div class="parentRight">
+            <!-- top navbar -->
             <div class="topNav">
-                <h1 class="budget">Budgets</h1>
+                <div class="budget">Budgets</div>
                 <div class="year">
                     <i class="fa fa-angle-left"></i><div class="fy">FY 2019</div><i class="fa fa-angle-right"></i>
                 </div>
@@ -44,46 +54,230 @@
                     <i class="fa fa-search"></i>
                     <input type="text" placeholder="Search Events">
                 </div>
-                <!-- <div style="width: 250px;background: black;height: 20px;"></div> -->
                 <div class="btn">
                     <i class="fa fa-download down"></i>
                     <i class="fa fa-gear set"></i>
-                    <div>
+                    <div class="plus-btn">
                         <button class="add"><i class="fa fa-plus add plus"></i>Add Budget</button>
                     </div>
                 </div>   
-            
             </div>
-        </div>
-    <!-- </div> -->
-    <!-- <div class="sidebar">
-        <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
-        <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
-        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    </div> -->
+      
+            <!-- card section -->
+            <div class="container">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-name">Total budget</div>
+                        <div class="card1">$1,20,000.00</div>
+                        <div class="card-bottom">  <span class="td"> </span></div>
+                    </div>
+        
+                    <div class="card ">
+                        <div class="card-name">Disbursed budget</div>
+                        <div class="card-price">$ 420,00.00</div>
+                        <div class="card-bottom"> T-D <span class="td"> $ 78,000.00</span></div>
+                    </div>
+        
+                    <div class="card ">
+                        <div class="card-name">Allocated budget</div>
+                        <div class="card-price">$ 420,00.00</div>
+                        <div class="card-bottom">T-D <span class="td"> $ 78,000.00 </span></div>
+                    </div>
+        
+                    <div class="card ">
+                        <div class="card-name">Actual budget</div>
+                        <div class="card-price">$ 100,00.00</div>
+                        <div class="card-bottom">A-A <span class="aa">-$ 78,000.00</span></div>
+                    </div>
+                </div>    
+                
+           
+                <div class="table">
+                    <div class="head-name">
+                        <div class="name1">RETAILER & TEAM</div>
+                        <div  class="name1">BUDGET NAME</div>
+                        <div  class="name2">OWNER</div>
+                        <div  class="name2">TYPE</div>
+                        <div  class="name1">CATEGORY</div>
+                        <div  class="name2">BRAND</div>
+                        <div  class="name3"> TOTAL</div>
+                        <div  class="name4">ALLOCATED BUDGET</div>
+                        <div  class="name">ACTUAL SPEND</div>
 
-   <!-- <div class="container">
-        <div class="budget1">
-            <h1>TOTAL BUDGET</h1>
-            <h2>$ 1,200,00.00</h2>
-        </div>
-        <div class="budget2">
-            <h5>DISBURSED BUDGET</h5>
-            <h1>$ 1,200,00.00</h1>
-            <h5>T-D $ 780,000.00</h5>
-        </div>
-        <div class="budget3">
-            <h5>ALLOCATED BUDGET</h5>
-            <h1>$ 4,20,00.00</h1>
-            <h5>D-A $ 360,000.00</h5>
-        </div>
-        <div class="budget4">
-            <h5>ACTUAL BUDGET</h5>
-            <h1>$ 1,00,00.00</h1>
-            <h5>A-A $ 40,000.00</h5>
-        </div>
-    </div> 
-     -->
+                    </div>
+                    <div class="table-content">  
+                        <div class="view-open">
+
+                            <div class="view accordion">
+                                <div class="c1-view">
+                                    <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Kroger</div>
+                                    <div class="c1-content1">Costco New Year</div>
+                                    <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                    <div class="c1-content2">New Year</div>
+                                    <div class="c1-content1">Packaged Meats</div>
+                                    <div class="c1-content2">Toyota</div>
+                                    <div class="c1-content3">$ 20 000.00<div class="price-small-green">$ 30 000.00</div></div>
+                                    <div class="c1-content4">$ 15 000.00<div class="price-small-green">$ 30 000.00</div></div>
+                                    <div class="c1-content">$ 20 000.00<div class="price-small-green">$ 30 000.00</div></div>
+
+                                </div>
+                            </div>    
+                                <div class="open1">
+                                <div class="vl"> </div>  
+                                <div class="hl"></div>
+                                <div class="hl2"></div>
+                                <div class="round"></div>
+                                <div class="round2"></div>
+                                    <div class="c1-view">
+                                        <div class="c1-content1">The Home Depot</div>
+                                        <div class="c1-content1">Costco New Year</div>
+                                        <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                        <div class="c1-content2">New Year</div>
+                                        <div class="c1-content1">Packaged</div>
+                                        <div class="c1-content2">Toyota</div>
+                                        <div class="c1-content3">$ 20 000.00</div>
+                                        <div class="c1-content4">$ 15 000.00</div>
+                                        <div class="c1-content">$ 20 000.00</div>
+                                        
+
+                                    </div>
+                              
+                           
+                                 
+                                    <div class="c1-view">
+                                        <div class="c1-content1">The Home Depot</div>
+                                        <div class="c1-content1">Costco New Year</div>
+                                        <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                        <div class="c1-content2">New Year</div>
+                                        <div class="c1-content1">Packaged Meats</div>
+                                        <div class="c1-content2">Toyota</div>
+                                        <div class="c1-content3">$ 20 000.00</div>
+                                        <div class="c1-content4">$ 15 000.00</div>
+                                        <div class="c1-content">$ 20 000.00</div>
+                                        
+                                    </div>
+                                 
+                                </div>      
+                        
+                        <div class="view-open">   
+                            <div class="view accordion">        
+                                <div class="c1-view">
+                                    <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Best Buy </div>
+                                    <div class="c1-content1">Costco New Year</div>
+                                    <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                    <div class="c1-content2">New Year</div>
+                                    <div class="c1-content1">Packaged Meats</div>
+                                    <div class="c1-content2">Toyota</div>
+                                    <div class="c1-content3">$ 20 000.00</div>
+                                    <div class="c1-content4">$ 15 000.00</div>
+                                    <div class="c1-content">$ 20 000.00</div>
+
+                                </div>
+                            </div>    
+                            <div class="open1">
+                                <div class="vl"> </div>  
+                                <div class="hl"></div>
+                                <div class="hl2"></div>
+                                <div class="round"></div>
+                                <div class="round2"></div>
+                                        <div class="c1-view">
+                                            <div class="c1-content1">The Home Depot</div>
+                                            <div class="c1-content1">Costco New Year</div>
+                                            <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                            <div class="c1-content2">New Year</div>
+                                            <div class="c1-content1">Packaged</div>
+                                            <div class="c1-content2">Toyota</div>
+                                            <div class="c1-content3">$ 20 000.00</div>
+                                            <div class="c1-content4">$ 15 000.00</div>
+                                            <div class="c1-content">$ 20 000.00</div>
+                                            
+
+                                        </div>
+                                        <div class="c1-view">
+                                            <div class="c1-content1">The Home Depot</div>
+                                            <div class="c1-content1">Costco New Year</div>
+                                            <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                            <div class="c1-content2">New Year</div>
+                                            <div class="c1-content1">Packaged Meats</div>
+                                            <div class="c1-content2">Toyota</div>
+                                            <div class="c1-content3">$ 20 000.00</div>
+                                            <div class="c1-content4">$ 15 000.00</div>
+                                            <div class="c1-content">$ 20 000.00</div>
+                                            
+
+                                        </div>
+                            </div>
+                        </div>    
+                            <div class="c1-view">
+                                <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Kroger</div>
+                                <div class="c1-content1">Costco New Year</div>
+                                <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                <div class="c1-content2">New Year</div>
+                                <div class="c1-content1">Packaged Meats</div>
+                                <div class="c1-content2">Toyota</div>
+                                <div class="c1-content3">$ 20 000.00</div>
+                                <div class="c1-content4">$ 15 000.00</div>
+                                <div class="c1-content">$ 20 000.00</div>
+
+                            </div>
+                            <div class="c1-view">
+                                <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Publix Super Markets</div>
+                                <div class="c1-content1">Costco New Year</div>
+                                <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                <div class="c1-content2">New Year</div>
+                                <div class="c1-content1">Packaged Meats</div>
+                                <div class="c1-content2">Toyota</div>
+                                <div class="c1-content3">$ 20 000.00<div class="price-small-green">$ 30 000.00</div></div>
+                                <div class="c1-content4">$ 15 000.00<div class="price-small-green">$ 30 000.00</div></div>
+                                <div class="c1-content">$ 20 000.00<div class="price-small-green">$ 30 000.00</div></div>
+
+                            </div>
+                            <div class="c1-view">
+                                <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Kroger</div>
+                                <div class="c1-content1">Costco New Year</div>
+                                <div class="c1-content2"><div class="photo"><span class="ava"><img src="./pic.jpeg"  ></span><span class="ava"><img src="./pic.jpeg"  ></span><span class="ava"><img src="./pic.jpeg"  ></span></div></div>
+                                <div class="c1-content2">New Year</div>
+                                <div class="c1-content1">Packaged Meats</div>
+                                <div class="c1-content2">Toyota</div>
+                                <div class="c1-content3">$ 20 000.00</div>
+                                <div class="c1-content4">$ 15 000.00</div>
+                                <div class="c1-content">$ 20 000.00</div>
+
+                            </div>
+                      
+                            <div class="c1-view">
+                                <div class="c1-content1"><i class="fa fa-angle-down arrow" aria-hidden="true"></i>Kroger</div>
+                                <div class="c1-content1">Costco New Year</div>
+                                <div class="c1-content2"><div class="pic"><img src="./pic.jpeg"  class="user"></div></div>
+                                <div class="c1-content2">New Year</div>
+                                <div class="c1-content1">Packaged Meats</div>
+                                <div class="c1-content2">Toyota</div>
+                                <div class="c1-content3">$ 20 000.00</div>
+                                <div class="c1-content4">$ 15 000.00</div>
+                                <div class="c1-content">$ 20 000.00</div>
+
+                            </div>
+                    </div>
+                </div>  
+            </div>      
+            </div>
+            
+
+
+        </div>    
+    </div>
+    <script>
+        
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+          });
+        }
+     
+        </script>
+        
 </body>
 </html>
