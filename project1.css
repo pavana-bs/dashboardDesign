@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese&family=Poppins&family=Roboto:wght@100;300&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -14,9 +17,10 @@ html, body {
     justify-content: space-between;
 }
 .budget {
-  font-size: 30px;
+  font-size: 25px;
   margin: unset;
-  font-family: 'Courier New', monospace;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
   color: rgba(67,88,143,255);
 }
 
@@ -139,14 +143,19 @@ table thead th {
 .eight a {
   margin: 20px 0px;
 }
-
+.tag-cal {
+  color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgba(185,186,204,255);
+  border: unset;
+}
 
 .tag {
-  stroke: rgba(166,168,190,255);
-  stroke-width: 40px;
-  background: transparent;
+  color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgba(185,186,204,255);
   border: unset;
-  color: #ccc;
+  /* color: #ccc; */
 }
 .two-icons a {
   margin-top: 90px;
@@ -156,7 +165,7 @@ table thead th {
   transform: rotate(79deg);
 height: 20px;
 width: 20px;
-background-color: white;
+background-color: rgba(248,248,250,255);
 border-radius: 6px;
 }
 .dot {
@@ -244,13 +253,17 @@ border-radius: 6px;
   border-radius: 12px;
   padding: 18px 12px 10px;
   text-transform: uppercase;
+  font-weight: bold;
 
 }
 .card-name {
+  font-weight: bold;
+  font-family: 'Noto Sans Balinese', sans-serif;
   padding-left: 10px;
   color: rgba(146,169,196,255);
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
+
 }
 .card-price {
   padding-left: 10px;
@@ -283,6 +296,7 @@ border-radius: 6px;
 }
 .card:hover {
   background: rgba(100,112,247,255); 
+  box-shadow: 5px 35px 20px -30px #64606078;
 }
 
 .card:hover > .card-price{
@@ -382,50 +396,84 @@ border-radius: 6px;
 }
 
   .vl {
-    border-left: 1px solid #ccc;
+    /* border-left: 1px solid #ccc;
     height: 100px;
     position: absolute;
     left: 50%;
+    margin-left: -605px; */
+    border-left: 1px solid #ccc;
+    height: 33px;
+    position: absolute;
+    left: 50%;
     margin-left: -605px;
+    margin-top: -21px;
+  }
+
+  .vl2 {
+    /* border-left: 1px solid #ccc;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -605px; */
+    border-left: 1px solid #ccc;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    margin-left: -605px;
+    margin-top: -54px;
   }
 
   .hl {
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc;
     width: 15px;
     position: absolute;
     margin-left: 34px;
-    margin-top: 29px;
+    margin-top: 29px; */
+    border-bottom: 1px solid #ccc;
+    width: 15px;
+    position: absolute;
+    left: 144px;
+    /* margin-left: 34px; */
+    margin-top: 11px;
     
     }
 
     .hl2 {
-      border-bottom: 1px solid #ccc;
-      width: 15px;
-      position: absolute;
-      margin-left: 34px;
-      margin-top: 99px;
+      left: 144px;
+    border-bottom: 1px solid #ccc;
+    width: 15px;
+    position: absolute;
+    margin-top: 10px;
       
       }
 
     .round {
-      border-radius: 50%;
+      /* border-radius: 50%;
       background-color: rgba(81,101,255,255);
       height: 8px;
       width: 8px;
       position: absolute;
       margin-left: 44px;
-      margin-top: 26px;
+      margin-top: 26px; */
+      border-radius: 50%;
+      background-color: rgba(81,101,255,255);
+      height: 8px;
+      width: 8px;
+      left: 156px;
+      position: absolute;
+      margin-top: 7px;
         
     }
 
     .round2 {
+      
+      left: 156px;
       border-radius: 50%;
       background-color: rgba(81,101,255,255);
       height: 8px;
       width: 8px;
       position: absolute;
-      margin-left: 44px;
-      margin-top: 95px;
+      margin-top: 6px;
         
     }
 
@@ -490,6 +538,10 @@ border-radius: 6px;
   .active + .open1{
     display: block;
   }
+
+  /* .input[type="text" i] {
+    padding: unset
+} */
   
 
 
